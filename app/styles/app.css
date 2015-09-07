@@ -1,0 +1,41 @@
+.fm-auto-results{
+	float:left;
+	background: #e9e9e9;
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.fm-auto-results ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.fm-auto-results ul li{
+	width:173px;
+}
+
+.fm-auto-results li:hover{
+	cursor: pointer;
+}
+
+.fm-auto-results ul li.selected{
+	background: red;
+	color: #fff;
+}
+
+.fm-auto-results span{
+	background: black;
+	color: #fff;
+}
+
+.tag{
+	background: green;
+	color: white;
+	font-size: 12px;
+	padding: 5px;
+}
